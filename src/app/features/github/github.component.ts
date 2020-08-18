@@ -26,6 +26,6 @@ export class GithubComponent implements OnInit {
    * nextPage for redirect to /app/nextpage
    */
   nextPage() {
-    this.router.navigate(['/app/nextpage']);
+    this.router.navigate(['/app/shorturl']);
   }
 }
